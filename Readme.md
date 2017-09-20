@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Марина Алистарова](https://up.htmlacademy.ru/adaptive/12/user/231013).
-* Наставник: `Неизвестно`.
+* Наставник: [Глеб Цырульников](https://htmlacademy.ru/profile/id492663).
 
 ---
 
