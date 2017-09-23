@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-img" src="img/logotype-mobile.svg" width="85" height="35" alt="Mishka">
+      </a>
+      <nav class="main-nav">
+      	<button class="main-nav__toggle">
+      	Открыть меню
+      	</button>
+      	<div class="main-nav__wrapper"
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a class="site-list__link" href="/catalog.html">
+              Каталог
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="/form.html">
+              Вязание на заказ
+              </a>
+            </li>
+            <li class="site-list__item">
+              <button class="main-nav__search-btn search-btn" type="button">
+              Поиск по сайту
+              </button>
+            </li>
+            <li class="site-list__item basket">
+              <a class="basket__link" href="#">
+                <span class="basket__field">Корзина:</span>
+                <span class="basket__value">пока пуста</span>
+              </a>
+              </input>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </a>
+    </header>
+    <main class="page-main">
+      <div class="page-title">
+        <h1>Каталог товаров</h1>
+      </div>
+      <div class="catalog">
+        <article class="catalog-item">
+          <div class="catalog-item__photo">
+            <img class="catalog-item__photo-img" src="img/rabbit.jpg" width="260" height="196" alt="Зайчик-попрыгайчик">
+          </div>
+          <div class="catalog-item__text-block">
+            <h2 class="catalog-item__title">
+            Зайчик-попрыгайчик
+            </h2>
+            <p class="catalog-item__description">
+            Рост 30 см, вес 200 гр.
+            </p>
+          </div>
+          <div class="catalog-item__price-block">
+            <span class="catalog-item__price">1 200 руб.</span>
+            <button class="catalog-item__buy-btn button">Купить</button>            
+          </div>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item__photo">
+            <img class="catalog-item__photo-img" src="img/laundry-basket.jpg" width="260" height="196" alt="Корзинка для белья">
+          </div>
+          <div class="catalog-item__text-block">
+            <h2 class="catalog-item__title">
+            Корзинка для белья
+            </h2>
+            <p class="catalog-item__description">
+            Диаметр 15 см, высота 10 см.
+            </p>
+          </div>
+          <div class="catalog-item__price-block">
+            <span class="catalog-item__price">690 руб.</span>
+            <button class="catalog-item__buy-btn button">Купить</button>            
+          </div>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item__photo">
+            <img class="catalog-item__photo-img" src="img/big-toys-basket.jpg" width="260" height="196" alt="Большая корзинка для игрушек">
+          </div>
+          <div class="catalog-item__text-block">
+            <h2 class="catalog-item__title">
+            Большая корзинка для игрушек
+            </h2>
+            <p class="catalog-item__description">
+            Диаметр 30 см, высота 30 см.
+            </p>
+          </div>
+          <div class="catalog-item__price-block">
+            <span class="catalog-item__price">1 500 руб.</span>
+            <button class="catalog-item__buy-btn button">Купить</button>            
+          </div>
+        </article>
+      </div>
+      <div class="order-pop-up">
+        <form class="order-pop-up__form" action="https://echo.htmlacademy.ru" method="get">
+          <b class="order-pop-up__title">
+          </b>
+          <label class="order-pop-up__size">
+            <input type="radio" name="order-pop-up__size" value="S" checked="">
+            S
+            <input type="radio" name="order-pop-up__size" value="M">
+            M
+            <input type="radio" name="order-pop-up__size" value="L">
+            L
+          </label>
+          <button class="order-pop-up__order-btn button">Добавить</button>
+        </form>
+      </div>
+      <section class="manufacture">
+        <h2 class="manufacture__title">
+        Процесс производства
+        </h2>
+        <div class="manufacture__video">
+          <img class="manufacture__videopreview" src="/img/videopreview.jpg" widght="260" height="135" alt="Процесс производства">
+          <button class="manufacture__play-btn play-btn">Play</button>
+        </div>
+        <div class="manufacture__description">
+          <p>По просьбм наших фолловеров мы сняли для вас подробное видео о том, как появляются наши товары</p>
+        </div>
+        <button class="manufacture__button button">
+        Сделать заказ
+        </button>
+      </section>
+    <footer class="page-footer">
+      </div>
+      <div class="page-footer__social">
+        <ul class="page-footer__social-list social-list">
+          <li class="social-list__item">
+            <a class="social-list__btn social-list__btn--instagramm" href="#">
+            instagramm
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__btn social-list__btn--facebook" href="#">
+            facebook
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__btn social-list__btn--twitter" href="#">
+            twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__title">
+        Разработано
+        </b>
+        <a class="copyright__link" href="#">
+        HTMLAcademy
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
