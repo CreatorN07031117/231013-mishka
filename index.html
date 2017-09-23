@@ -16,27 +16,28 @@
       	<div class="main-nav__wrapper"
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-            Каталог
+              <a class="site-list__link" href="/catalog.html">
+              Каталог
+              </a>
             </li>
             <li class="site-list__item">
-            Вязание на заказ
+              <a class="site-list__link" href="/form.html">
+              Вязание на заказ
+              </a>
             </li>
             <li class="site-list__item">
-            Новые поступления
+              <button class="main-nav__search-btn search-btn" type="button">
+              Поиск по сайту
+              </button>
             </li>
-            <li class="site-list__item">
-            Распродажа
+            <li class="site-list__item basket">
+              <a class="basket__link" href="#">
+                <span class="basket__field">Корзина:</span>
+                <span class="basket__value">пока пуста</span>
+              </a>
+              </input>
             </li>
           </ul>
-          <div class="main-nav__basket">
-          -корзина-
-          </div>
-          <button class="main-nav__search-btn" type="button">
-          Поиск по сайту
-          </button>
-          <a class="main-nav__delivery" href="/delivery">
-          Бесплатная доставка по всей России
-          </a>
         </div>
       </nav>
       </a>
@@ -98,17 +99,19 @@
         Заказать
         </button>
         <div class="product-offer_order-pop-up order-pop-up">
-          <b class="order-pop-up__title">
-          </b>
-          <label class="order-pop-up__size">
-            <input type="radio" name="order-pop-up__size" value="S" checked="">
-            S
-            <input type="radio" name="order-pop-up__size" value="M">
-            M
-            <input type="radio" name="order-pop-up__size" value="L">
-            L
-          </label>
-          <button class="order-pop-up__order-btn button">Добавить</button>
+          <form class="order-pop-up__form" action="https://echo.htmlacademy.ru" method="get">
+            <b class="order-pop-up__title">
+            </b>
+            <label class="order-pop-up__size">
+              <input type="radio" name="order-pop-up__size" value="S" checked="">
+              S
+              <input type="radio" name="order-pop-up__size" value="M">
+              M
+              <input type="radio" name="order-pop-up__size" value="L">
+              L
+            </label>
+            <button class="order-pop-up__order-btn button">Добавить</button>
+          </form>
         </div>
       </article>
       <section class="advantages">
