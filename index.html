@@ -13,51 +13,49 @@
       	<button class="main-nav__toggle">
       	Открыть меню
       	</button>
-      	<div class="main-nav__wrapper"
+      	<div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a class="site-list__link" href="/catalog.html">
+              <a class="site-list__link" href="catalog.html">
               Каталог
               </a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="/form.html">
+              <a class="site-list__link" href="form.html">
               Вязание на заказ
               </a>
             </li>
-            <li class="site-list__item">
-              <button class="main-nav__search-btn search-btn" type="button">
+            <li class="site-list__item search">
+              <a class="search__link " href="#">
               Поиск по сайту
-              </button>
+              </a>
             </li>
             <li class="site-list__item basket">
               <a class="basket__link" href="#">
                 <span class="basket__field">Корзина:</span>
-                <span class="basket__value">пока пуста</span>
+                <output class="basket__value">пока пуста</output> 
               </a>
-              </input>
             </li>
           </ul>
         </div>
       </nav>
-      </a>
     </header>
     <main class="page-main">
       <div class="page-title page-title--index">
         <h1>Милые штуки ручной работы для дома</h1>
       </div>
-      <section class="catalog-section">
-        <table class=""catalog-section section-nav">
-          <tr class="catalog-section section-nav">
-            <td class="section-nav__item section-nav__item--homestuff">
-            Домашняя утварь
-            </td>
-            <td class="section-nav__item section-nav__item--toy">
-            Детские игрушки
-            </td>
-          </tr>
-        </table>
-      </section>
+      <div class="catalog-part">
+        <div class="catalog-part__item">
+          <a class="catalog-part__link catalog-part__link--homestuff" href="#">
+          Домашняя утварь
+          </a>
+        </div>
+        <div class="catalog-part__item">
+          <a class="catalog-part__link catalog-part__link--toys" href="#">
+          Детские игрушки
+          </a>
+        </div>
+      </div>
       <article class="product-offer">
         <h2 class="product-offer__title">
         Вязанные корзинки
@@ -88,31 +86,11 @@
           <img class="product-offer_photo-img" src="img/knitted_baskets.jpg" width="260" height="316" alt="Вязанные корзинки">
         </div>
         <div class="product-offer__pricefield">
-          <table class="product-offer__price">
-            <tr>
-              <td>Цена:</td>
-              <td>900 руб</td>
-            </tr>
-          </table>
+          <div class="product-offer__price">Цена: 900 руб</div>
         </div>
         <button class="product-offer_btn button">
         Заказать
         </button>
-        <div class="product-offer_order-pop-up order-pop-up">
-          <form class="order-pop-up__form" action="https://echo.htmlacademy.ru" method="get">
-            <b class="order-pop-up__title">
-            </b>
-            <label class="order-pop-up__size">
-              <input type="radio" name="order-pop-up__size" value="S" checked="">
-              S
-              <input type="radio" name="order-pop-up__size" value="M">
-              M
-              <input type="radio" name="order-pop-up__size" value="L">
-              L
-            </label>
-            <button class="order-pop-up__order-btn button">Добавить</button>
-          </form>
-        </div>
       </article>
       <section class="advantages">
         <h2 class="advantages__title">
@@ -140,7 +118,7 @@
         </ul>
       </section>
       <section class="reviews">
-        <h2 class="reviws__title">
+        <h2 class="reviews__title">
         Отзывы
         </h2>
         <div class="reviews__list">
@@ -161,9 +139,9 @@
           <button class="reviews-next button" type="button">
           Следующий
           </button>
-          <button class="reviews__new button" type="button">
+          <a class="reviews__new button" href="#">
           Написать
-          </button>
+          </a>
         </div>
       </section>
     </main>
@@ -175,26 +153,26 @@
         <table class="contacts__text">
           <tr>
             <td>e-mail:</td>
-            <td>info@mimimishkashop.ru</td>
+            <td><a href="mailto">info@mimimishkashop.ru</a></td>
           </tr>
           <tr>
             <td>адрес:</td>
-            <td>г.Санкт-Петербург, ул.Большая Конюшенная, д.19/8, офис 101</td>
+            <td>г.Санкт-Петербург, ул.Большая&nbsp;Конюшенная, д.19/8, офис&nbsp;101</td>
           </tr>
         </table>
       </div>
-      <div class="page-footer__map map">
+      <div class="page-footer__map map" id="map-canvas">
       </div>
       <div class="page-footer__connect">
-        <button class="page-footer_connect-btn button">
+        <a class="page-footer_connect-btn button">
         Напишите нам
-        </button>
+        </a>
       </div>
       <div class="page-footer__social">
         <ul class="page-footer__social-list social-list">
           <li class="social-list__item">
-            <a class="social-list__btn social-list__btn--instagramm" href="#">
-            instagramm
+            <a class="social-list__btn social-list__btn--instagram" href="#">
+            instagram
             </a>
           </li>
           <li class="social-list__item">
@@ -213,10 +191,29 @@
         <b class="copyright__title">
         Разработано
         </b>
-        <a class="copyright__link" href="#">
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
         HTMLAcademy
         </a>
       </div>
     </footer>
+    <div class="add-to-cart modal-content">
+      <form class="add-to-cart__form form" action="https://echo.htmlacademy.ru" method="post">
+        <b class="add-to-cart__title">
+        </b>
+        <label class="add-to-cart__size">
+          <input type="radio" name="add-to-cart__size" value="S" checked="">
+          <span class="add-to-cart__size-label">S</span>
+        </label>
+        <label class="add-to-cart__size">
+          <input type="radio" name="add-to-cart__size" value="M">
+          <span class="add-to-cart__size-label">M</span>
+        </label>
+        <label class="add-to-cart__size">
+          <input type="radio" name="add-to-cart__size" value="L">
+          <span class="add-to-cart__size-label">L</span>
+        </label>
+        <button class="add-to-cart__btn button">Добавить</button>
+      </form>
+    </div>
   </body>
 </html>
