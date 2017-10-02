@@ -2,7 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Мишка</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -65,21 +67,21 @@
           </p>
           <table class="product-offer__parameter">
             <tr>
-              <td>Цвет:</td>
-              <td>"Тиффани/серый"</td>
+              <td class="product-offer__parameter-name">Цвет:</td>
+              <td class="product-offer__parameter-value">"Тиффани/серый"</td>
             </tr>
             <tr>
-              <td>Диаметр:</td>
-              <td>25 см</td>
+              <td class="product-offer__parameter-name">Диаметр:</td>
+              <td class="product-offer__parameter-value">25 см</td>
             </tr>
             <tr>
-              <td>Высота:</td>
-              <td>15 см</td>
+              <td class="product-offer__parameter-name">Высота:</td>
+              <td class="product-offer__parameter-value">15 см</td>
             </tr>
           </table>
         </div>
-        <div class="product-offer_photo">
-          <img class="product-offer_photo-img" src="img/knitted_baskets.jpg" width="260" height="316" alt="Вязанные корзинки">
+        <div class="product-offer__photo">
+          <img class="product-offer__photo-img" src="img/triple-set-mobile@1x.jpg" width="260" height="316" alt="Вязанные корзинки">
         </div>
         <div class="product-offer__pricefield">
           <div class="product-offer__price">Цена: 900 руб</div>
@@ -137,7 +139,7 @@
     </main>
     <footer class="page-footer">
       <div class="page-footer__contacts contacts">
-        <b class="contacts_title">Контакты</b>
+        <b class="contacts__title">Контакты</b>
         <table class="contacts__text">
           <tr>
             <td>e-mail:</td>
@@ -152,7 +154,7 @@
       <div class="page-footer__map map" id="map-canvas">
       </div>
       <div class="page-footer__connect">
-        <a class="page-footer_connect-btn button">
+        <a class="page-footer__connect-btn button" href="#">
           Напишите нам
         </a>
       </div>
@@ -184,8 +186,10 @@
     </footer>
     <div class="add-to-cart modal-content">
       <form class="add-to-cart__form form" action="https://echo.htmlacademy.ru" method="post">
-        <b class="add-to-cart__title">
-        </b>
+        <b class="add-to-cart__title">Добавить в корзину</b>
+        <p class="add-to-cart__description">
+          Выберите размер:
+        </p>
         <label class="add-to-cart__size">
           <input type="radio" name="add-to-cart__size" value="S" checked="">
           <span class="add-to-cart__size-label">S</span>
