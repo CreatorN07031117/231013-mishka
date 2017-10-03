@@ -1,7 +1,7 @@
 .catalog-part {
 }
 
-.catalog-part__item { 
+.catalog-part__item {
 }
 
 .catalog-part__link {
@@ -14,10 +14,12 @@
   text-align: left;
   color: $white;
   text-decoration: none;
+
   &--homestuff {
-    background-color: $seacolor;  
+  background-color: $seacolor;  
   }
+
   &--toys {
-    background-color: $dark-seacolor;
+  background-color: $dark-seacolor;
   }
 }
