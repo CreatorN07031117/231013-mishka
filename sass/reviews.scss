@@ -1,0 +1,40 @@
+.reviews {
+  padding: 0 30px 0 30px;
+}
+
+.reviews__title {
+  font-size: 25px;
+  font-family: $fontbold;
+  color: $black;
+}
+
+.reviews__item {
+  margin: 0;
+  padding: 38px 0 38px 0;
+}
+
+.reviews__author-name {
+  padding-top: 38px;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 24px;
+  font-family: $fontbold;
+}
+
+.reviews__author-tag {
+  
+}
+
+.reviews-prew {
+  border: 1px solid $grey;
+}
+
+.reviews-next {
+  border: 1px solid $grey;
+}
+
+.reviews__new {
+  margin: 38px 0 48px 0;
+  text-decoration: none;
+}
+

@@ -1,0 +1,40 @@
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.advantages__title {
+  font-size: 25px;
+  font-family: $fontbold;
+  color: $black;
+  
+}
+
+.advantages__item {
+  min-height: 91px;
+  padding-top: 35px;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: $fontbold;
+  &--eco {
+    
+  }
+  &--style {
+    
+  }
+  &--like {
+    
+  }
+  &--handmake {
+    
+  }
+  &--manufacturer {
+    
+  }
+  &--packing {
+    
+  }
+}

@@ -1,0 +1,53 @@
+.product-offer {
+  padding: 35px 30px 33px 30px;
+  color: $dark-grey;
+}
+
+.product-offer__title {
+  font-size: 25px;
+  font-family: $fontbold;
+  color: $black;
+}
+
+.product-offer__label {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: $fontbold;
+  text-transform: uppercase;
+  color: $seacolor;  
+}
+
+.product-offer__description {
+  padding: 35px 0 30px 0;
+}
+
+.product-offer__parameter {
+   border-collapse: collapse;
+}
+
+.product-offer__parameter-name {
+  width: 98px;
+  padding: 15px 0 15px 0;
+  text-align: left;
+  border-bottom: 1px solid $grey;
+}
+
+.product-offer__parameter-value {
+  width: 164px;
+  padding: 15px 0 15px 0;
+  text-align: left;
+  border-bottom: 1px solid $grey;
+}
+
+.product-offer__photo {
+   padding-top: 30px;
+}
+
+.product-offer__price {
+  min-height: 75px;
+  padding-top: 29px;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: $fontbold;
+  text-align: center;
+}

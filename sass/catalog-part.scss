@@ -1,0 +1,23 @@
+.catalog-part {
+}
+
+.catalog-part__item { 
+}
+
+.catalog-part__link {
+  display: block;
+  padding: 23px 30px 23px 30px;
+  padding-right: auto;
+  font-size: 19px;
+  line-height: 24px;
+  font-family: $fontbold;
+  text-align: left;
+  color: $white;
+  text-decoration: none;
+  &--homestuff {
+    background-color: $seacolor;  
+  }
+  &--toys {
+    background-color: $dark-seacolor;
+  }
+}
