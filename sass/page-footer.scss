@@ -1,0 +1,40 @@
+.page-footer {
+  padding: 0 30px 0 30px;
+}
+
+.page-footer__contacts {
+  padding-top: 48px;
+}
+
+.contacts__title {
+  padding-bottom: 42px;
+  font-size: 18px;
+  font-family: $fontbold;
+}
+
+.contacts__text {
+  border-collapse: collapse;
+}
+
+.contacts__text td {
+  padding-bottom: 40px;
+}
+
+.page-footer__connect {
+  padding: 38px 0 38px 0;
+}
+
+.page-footer__social {
+  padding: 40px 0 40px 0;
+  background-color: #f1f1f1;
+  border-bottom: $grey;
+}
+
+.page-footer__copyright {
+  padding: 38px 0 38px;
+  font-size: 19px;
+  line-height: 18px;
+  font-family: $fontbold;
+  color: $black;
+  background-color: #f1f1f1;
+}

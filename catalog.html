@@ -2,7 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Каталог - Мишка</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -48,7 +50,7 @@
         <article class="catalog-item">
           <div class="catalog-item__photo">
             <a class="catalog-item__img-link" href="#">
-              <img class="catalog-item__photo-img" src="img/rabbit.jpg" width="260" height="196" alt="Зайчик-попрыгайчик">
+              <img class="catalog-item__photo-img" src="img/photo-hare-mobile@1x.jpg" width="260" height="196" alt="Зайчик-попрыгайчик">
             </a>
           </div>
           <div class="catalog-item__text-block">
@@ -65,7 +67,7 @@
         <article class="catalog-item">
           <div class="catalog-item__photo">
             <a class="catalog-item__img-link" href="#">
-              <img class="catalog-item__photo-img" src="img/laundry-basket.jpg" width="260" height="196" alt="Корзинка для белья">
+              <img class="catalog-item__photo-img" src="img/photo-bowl-mobile@1x.jpg" width="260" height="196" alt="Корзинка для белья">
             </a>
           </div>
           <div class="catalog-item__text-block">
@@ -82,7 +84,7 @@
         <article class="catalog-item">
           <div class="catalog-item__photo">
             <a class="catalog-item__img-link" href="#">
-              <img class="catalog-item__photo-img" src="img/big-toys-basket.jpg" width="260" height="196" alt="Большая корзинка для игрушек">
+              <img class="catalog-item__photo-img" src="img/photo-toys-mobile@1x.jpg" width="260" height="196" alt="Большая корзинка для игрушек">
             </a>
           </div>
           <div class="catalog-item__text-block">
@@ -141,8 +143,10 @@
     </footer>
     <div class="add-to-cart modal-content">
       <form class="add-to-cart__form form" action="https://echo.htmlacademy.ru" method="post">
-        <b class="add-to-cart__title">
-        </b>
+        <b class="add-to-cart__title">Добавить в корзину</b>
+        <p class="add-to-cart__description">
+          Выберите размер:
+        </p>
         <label class="add-to-cart__size">
           <input type="radio" name="add-to-cart__size" value="S" checked="">
           <span class="add-to-cart__size-label">S</span>

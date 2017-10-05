@@ -1,0 +1,94 @@
+.knitting-form {
+  margin: 30px 30px 58px 30px;
+}
+.knitting-form__form {
+  border: 0;
+}
+
+.form__title {
+  margin-top: 34px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 16px;
+  font-family: $fontbold;
+  color: $seacolor;
+  text-transform: uppercase;
+}
+
+.knitting-form__description {
+}
+
+.form__label {
+  font-size: 17px;
+  line-height: 16px;
+  font-family: $fontbold;
+  color: $black;
+}
+
+.form__customer-information input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 18px;
+  color: #d5d5d5;
+  border: 0;
+  border-bottom: 2px solid $black;
+}
+
+
+.form__customer-name {
+  font-size: 17px;
+  line-height: 16px;
+  font-family: $fontbold;
+  color: $black;
+}
+
+.form__customer-familyname {
+  font-size: 17px;
+  line-height: 16px;
+  font-family: $fontbold;
+  color: $black;
+}
+
+.form__customer-middlename {
+  font-size: 17px;
+  line-height: 16px;
+  font-family: $fontbold;
+  color: $black;
+}
+
+.form__customer-phone input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 18px;
+  color: #d5d5d5;
+  border: 0;
+  border-bottom: 2px solid $black;
+}
+
+.form__customer-email input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 18px;
+  color: #d5d5d5;
+  border: 0;
+  border-bottom: 2px solid $black;
+}
+
+.form__add-information textarea {
+  min-height: 137px;
+  padding: 19px;
+  font-size: 17px;
+  line-height: 18px;
+  color: #d5d5d5;
+  border: 2px solid $dark-grey;
+}
+
+.form__button {
+  margin-top: 34px;
+}
