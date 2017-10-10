@@ -1,40 +1,62 @@
 .page-footer {
+  width: 260px;
   padding: 0 30px 0 30px;
+  background-color: #f1f1f1;
 }
 
-.page-footer__contacts {
-  padding-top: 48px;
+@media (min-width: 768px) {
+  .page-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 668px;
+    padding: 50px 50px 50px 50px;
+  }
 }
 
-.contacts__title {
-  padding-bottom: 42px;
-  font-size: 18px;
-  font-family: $fontbold;
+@media (min-width: 1152px) {
+  .page-footer {
+    width: 1052px;
+    padding: 50px 100px 50px 100px;
+  }
 }
 
-.contacts__text {
-  border-collapse: collapse;
+
+.page-footer__logo {
+  visibility: hidden;
 }
 
-.contacts__text td {
-  padding-bottom: 40px;
-}
-
-.page-footer__connect {
-  padding: 38px 0 38px 0;
+@media (min-width: 768px) {
+ .page-footer__logo {
+    height: 44px;
+    visibility: visible; 
+    
+    background-color: darkgray;
+  }
 }
 
 .page-footer__social {
-  padding: 40px 0 40px 0;
-  background-color: #f1f1f1;
+  padding: 40px 0px 40px 0px;
   border-bottom: $grey;
 }
 
+@media (min-width: 768px){
+  .page-footer__social {
+    height: 44px;
+    padding: 0px;
+    border-bottom: none;
+  }
+}
+
 .page-footer__copyright {
-  padding: 38px 0 38px;
+  padding: 38px 0px 38px 0px;
   font-size: 19px;
   line-height: 18px;
   font-family: $fontbold;
   color: $black;
-  background-color: #f1f1f1;
+}
+
+@media (min-width: 768px) {
+  .page-footer__copyright {
+    padding: 0px
+  }
 }
