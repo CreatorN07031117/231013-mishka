@@ -1,2 +1,57 @@
 .page-header {
+  display: flex;
+  width: 320px;
+  height: 79px;
+  border-bottom: 1px solid #ececec;
 }
+
+@media (min-width: 768px){
+  .page-header {
+    flex-direction: row;
+    width: 668px;
+    height: 89px;
+    padding: 0 50px 0 50px;
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+  }
+}
+
+@media (min-width: 1152px){
+  .page-header {
+    width: 1052px;
+    padding: 0 50px 0 50px;
+  }
+}
+
+.page-header__logo {
+  display: block;
+  padding: 22px 116px 22px auto;
+}
+
+@media (min-width: 768px){
+  .page-header__logo {
+    position: relative;
+    top: 22px;
+    left: 29px; 
+    width: 115px;
+    height: 47px;
+    padding: 0;
+    
+    background-color: gray;
+  }
+}
+
+@media (min-width: 1152px){
+  .page-header__logo {
+    position: relative;
+    top: 5px;
+    left: 451px; 
+    width: 154px;
+    height: 76px;
+    padding: 0;
+    
+    background-color: gray;
+  }
+}
+
+

@@ -1,9 +1,23 @@
 .add-to-cart {
+  width: 260px;
   padding: 38px 30px 48px 30px;
 }
 
+@media (min-width: 768px) {
+  .add-to-cart {
+    display: flex;
+    flex-wrap: wrap;
+    width: 569px;
+    height: 242px;
+    margin: auto;
+    padding: 50px 0 45px 0;
+    border: 1px solid #c7c7c7;
+  }
+}
+
 .add-to-cart__title {
-  padding: 0 58px 37px 58px;
+  display: block;
+  padding: 0 55px 37px 55px;
   font-size: 25px;
   font-family: $fontbold;
   text-align: center;
