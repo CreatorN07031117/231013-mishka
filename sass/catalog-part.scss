@@ -36,7 +36,7 @@
 
 .catalog-part__link {
   display: block;
-  padding: 23px 30px 23px 30px;
+  padding: 28px 30px 28px 30px;
   padding-right: auto;
   font-size: 19px;
   line-height: 24px;
@@ -46,10 +46,21 @@
   text-decoration: none;
 
   &--homestuff {
+  position: relative;
   width: 105px;
   padding-right: 185px;
   background-color: $seacolor;  
   }
+  
+  &--homestuff::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+    width: 41px;
+    height: 63px;
+    
+    }
 
   &--toys {
   width: 88px;  

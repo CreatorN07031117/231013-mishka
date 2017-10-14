@@ -1,7 +1,8 @@
 .page-header {
   display: flex;
+  flex-direction: column;
   width: 320px;
-  height: 79px;
+  min-height: 78px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -25,6 +26,7 @@
 
 .page-header__logo {
   display: block;
+  height: 78px;
   padding: 22px 116px 22px auto;
 }
 
