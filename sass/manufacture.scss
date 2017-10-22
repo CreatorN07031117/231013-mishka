@@ -50,7 +50,7 @@
 }
 
 .manufacture__videocontent {
-  background-color: azure;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -92,6 +92,15 @@
 .manufacture__button {
   margin: 0 34px 30px 34px;
   width: 188px;
+    
+  &:hover {
+    color: $white;
+    background-color: $dark-grey;
+  }
+  
+  &:active {
+    color: #8d8d8d;
+  }
 }
 
 @media (min-width: 768px) {
@@ -108,5 +117,41 @@
     width: 230px;
     margin: -115px auto 60px 760px;
     
+  }
+}
+
+.play-btn {
+  position: absolute;
+  top: 77px;
+  left: 134px;
+  transform: translate( -50%, -50% );
+  width: 101px;
+  height: 80px;
+  background: url(../img/icon-play.svg) no-repeat center contain;
+  background-color: none;
+  border: none;
+  
+  &:hover {
+    width: 121.2px;
+    height: 96px;
+  }
+  
+  &:active {
+    width: 80.8px;
+    height: 76.8px;
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .play-btn {
+    top: 228px;
+    left: 334px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .play-btn {
+    left: 320px;
   }
 }
