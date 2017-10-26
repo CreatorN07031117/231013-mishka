@@ -13,12 +13,12 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .manufacture {
     flex-direction: row;
     flex-wrap: wrap;
     width: 1048px;
-    margin: 0 auto 107px auto;
+    margin: 0 auto 103px auto;
   }
 }
 
@@ -40,15 +40,17 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .manufacture__title {
     width: 228px;
-    padding: 100px 61px 53px 80px;
+    min-height: 50px;
+    margin: 0;
+    padding: 94px 60px 0 80px; ;
   }
 }
 
 .manufacture__videocontent {
-  background-color: azure;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -59,8 +61,9 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .manufacture__videocontent {
+    width: 680px;
     border-bottom: 0;
   }
 }
@@ -77,18 +80,27 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .manufacture__description {
     width: 228px;
-    margin-top: -272px;
-    margin-left: 681px;
-    padding: 0 61px 0 80px;
+    margin-top: -297px;
+    margin-left: 679px;
+    padding: 0 60px 0 80px;
   }
 }
 
 .manufacture__button {
   margin: 0 34px 30px 34px;
   width: 188px;
+    
+  &:hover {
+    color: $white;
+    background-color: $dark-grey;
+  }
+  
+  &:active {
+    color: #8d8d8d;
+  }
 }
 
 @media (min-width: 768px) {
@@ -100,10 +112,46 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .manufacture__button {
-    width: 227px;
-    margin: -115px 58px 62px 764px;
+    width: 230px;
+    margin: -115px auto 60px 760px;
     
+  }
+}
+
+.play-btn {
+  position: absolute;
+  top: 77px;
+  left: 134px;
+  transform: translate( -50%, -50% );
+  width: 101px;
+  height: 80px;
+  background: url(../img/icon-play.svg) no-repeat center contain;
+  background-color: none;
+  border: none;
+  
+  &:hover {
+    width: 121.2px;
+    height: 96px;
+  }
+  
+  &:active {
+    width: 80.8px;
+    height: 76.8px;
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .play-btn {
+    top: 228px;
+    left: 334px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .play-btn {
+    left: 320px;
   }
 }

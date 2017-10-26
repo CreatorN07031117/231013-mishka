@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .catalog-part {
      width: 1250px;
   }
@@ -26,17 +26,17 @@
   }
 }
 
-@media (min-width: 1152px){
+@media (min-width: 1150px){
   .catalog-part__item {
-    width: 524px;
-    height: 122px;
+    width: 527px;
+    height: 120px;
   }
 }
 
 
 .catalog-part__link {
   display: block;
-  padding: 23px 30px 23px 30px;
+  padding: 26px 28px 30px 28px;
   padding-right: auto;
   font-size: 19px;
   line-height: 24px;
@@ -46,13 +46,16 @@
   text-decoration: none;
 
   &--homestuff {
+  position: relative;
   width: 105px;
-  padding-right: 185px;
+  padding-right: 187px;
   background-color: $seacolor;  
   }
 
   &--toys {
-  width: 88px;  
+  width: 88px;
+  padding-top: 25px;
+  padding-left: 30px;
   padding-right: 202px;
   background-color: $dark-seacolor;
   }
@@ -61,7 +64,7 @@
 @media (min-width: 768px) {
   .catalog-part__link {
     margin: 0;
-    padding: 31px 36px 31px 36px;
+    padding: 28px 36px 31px 36px;
     padding-right: auto;
     font-size: 20px;
     line-height: 30px;
@@ -78,21 +81,21 @@
   }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1150px) {
   .catalog-part__link {
     margin: 0;
-    padding: 31px 40px 31px 40px;
+    padding: 29px 40px 28px 36px;
     padding-right: auto;
     font-size: 20px;
     line-height: 30px;
     
     &--homestuff {
-      width: 120px;
+      width: 127px;
       padding-right: 364px;
     }
 
     &--toys {
-      width: 97px;
+      width: 103px;
       padding-right: 384px;
     }
   }
